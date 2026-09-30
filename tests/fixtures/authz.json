@@ -1,0 +1,9 @@
+{
+  "identifier": {"type": "dns", "value": "example.com"},
+  "status": "pending",
+  "challenges": [
+    {"type": "http-01", "url": "https://acme/chal/http/1", "token": "httpTokenAAA"},
+    {"type": "dns-01", "url": "https://acme/chal/dns/1", "token": "dnsTokenBBB"},
+    {"type": "tls-alpn-01", "url": "https://acme/chal/tls/1", "token": "tlsTokenCCC"}
+  ]
+}

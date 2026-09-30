@@ -1,0 +1,5 @@
+{
+  "status": "pending",
+  "finalize": "https://acme/finalize/1",
+  "authorizations": ["https://acme/authz/1", "https://acme/authz/2"]
+}
